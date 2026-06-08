@@ -1,10 +1,10 @@
 const firebaseConfig = {
-  apiKey: process.env.FIREBASE_API_KEY || "AIzaSyAKu35YXHRMiAEcfEJ_e2haLIV5d8czNDI",
-  authDomain: process.env.FIREBASE_AUTH_DOMAIN || "gen-lang-client-0326253424.firebaseapp.com",
-  projectId: process.env.FIREBASE_PROJECT_ID || "gen-lang-client-0326253424",
-  storageBucket: process.env.FIREBASE_STORAGE_BUCKET || "gen-lang-client-0326253424.firebasestorage.app",
-  messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID || "1059377978488",
-  appId: process.env.FIREBASE_APP_ID || "1:1059377978488:web:b4d0d2bf9f1949dbbba18d"
+  apiKey: process.env.FIREBASE_API_KEY || "..",
+  authDomain: process.env.FIREBASE_AUTH_DOMAIN || "..",
+  projectId: process.env.FIREBASE_PROJECT_ID || "..",
+  storageBucket: process.env.FIREBASE_STORAGE_BUCKET || "..",
+  messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID || ".."
+  appId: process.env.FIREBASE_APP_ID || ".."
 };
 
 const firestoreBaseUrl = `https://firestore.googleapis.com/v1/projects/${firebaseConfig.projectId}/databases/(default)/documents`;
